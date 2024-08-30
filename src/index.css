@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.short-about {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.short-about .welcome {
+  font-family: "Lexend Deca", sans-serif;
+  width: 50%;
+  margin-left: 5%;
+}
+
+.short-about .welcome #hi {
+  color: #42b883;
+  font-size: 21px;
+}
+
+.short-about .welcome h1 {
+  font-size: 50px;
+}
+.short-about .welcome h2 {
+  font-size: 30px;
+}
+
+.short-about .welcome #name {
+  color: white;
+}
+
+.short-about .welcome #title {
+  color: #9b9b9b;
+}
+
+.short-about .welcome #description {
+  color: white;
+  font-size: 19px;
+}
+
+.short-about .welcome #description .lang {
+  color: #42b883;
+}
+
+.short-about .image {
+  width: 20%;
+  height: auto;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 1031px) {
+  .short-about {
+    flex-direction: column;
+  }
+
+  .short-about .welcome {
+    width: 90%;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .short-about .image {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .short-about .welcome {
+    width: 70%;
+  }
+}
+
+.sticky-navbar {
+  position: fixed;
+}
