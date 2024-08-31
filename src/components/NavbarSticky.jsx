@@ -66,7 +66,7 @@ export default function StickyNavbar() {
   );
 
   return (
-    <Navbar className="fixed top-0 left-0 right-0 z-50 mt-0 bg-black backdrop-blur-lg backdrop-filter bg-opacity-40 px-5 border-none w-[90%] ml-[5%] mt-2">
+    <Navbar className="fixed top-0 left-0 right-0 z-50  bg-black backdrop-blur-lg backdrop-filter bg-opacity-40 px-5 border-none w-[90%] ml-[5%] mt-2">
       <div className="flex justify-between text-blue-gray-900">
         <Typography as="a" href="/" className="mr-4 cursor-pointer py-1.5 font-medium">
           osmanbeyhan

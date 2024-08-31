@@ -9,7 +9,6 @@ function App() {
   const [dataLanguage, setDataLanguage] = useState([]);
   const envData = import.meta.env;
   const token = envData.VITE_REACT_APP_TOKEN;
-  console.log("data::: ", envData);
    // Oluşturduğunuz token'ı buraya yapıştırın.
   const [formData, setFormData] = useState({
     firstName: "",
@@ -40,7 +39,6 @@ function App() {
       subject: `Message from ${firstName} ${lastName}, ${email}`,
       text: message,
     };
-    console.log(envData.VITE_REACT_APP_MAIL);
     
 
     try {
@@ -112,7 +110,6 @@ function App() {
           }
         });
         setDataDocs(repos);
-        console.log("dataDocs:", repos); // dataDocs yerine repos'u logluyoruz
       })
       .catch((err) => console.log(err));
   }, []); // useEffect'in kapanış parantezi doğru şekilde yerleştirildi
