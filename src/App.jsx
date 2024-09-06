@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useLocation } from 'react-router-dom';
 import axios from "axios";
 import osmanbeyhan from "./assets/osmanbeyhan.jpg";
 import NavbarSticky from "./components/NavbarSticky";
@@ -9,6 +10,13 @@ function App() {
   const [dataLanguage, setDataLanguage] = useState([]);
   const envData = import.meta.env;
   const token = envData.VITE_REACT_APP_TOKEN;
+  const location = useLocation();
+
+  useEffect(() => {
+    window.gtag('config', envData.VITE_REACT_APP_GOOGLE_ID, {
+      page_path: location.pathname,
+    });
+  }, [location]);
    // Oluşturduğunuz token'ı buraya yapıştırın.
   const [formData, setFormData] = useState({
     firstName: "",
