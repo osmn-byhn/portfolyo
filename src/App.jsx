@@ -282,6 +282,7 @@ function App() {
               <path d="M0 0v32h9v-23h11.5v-9zM11.5 11.5v20.5h9v-20.5zM23 0v32h9v-32z"></path>
             </g>
           </svg>
+          <img src="https://hizliresim.com/b9hlti1" width="48px" height="48px" />
           <img src="https://skillicons.dev/icons?i=powershell" />
           <img src="https://skillicons.dev/icons?i=windows" />
         </div>
