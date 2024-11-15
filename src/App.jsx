@@ -275,7 +275,7 @@ function App() {
           <img src="https://skillicons.dev/icons?i=ubuntu" />
           <img src="https://skillicons.dev/icons?i=bash" />
           <img src="https://skillicons.dev/icons?i=linux" />
-          <svg fill="#35bfa4" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+          <svg fill="#35bfa4" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="15%" height="auto">
             <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
             <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
             <g id="SVGRepo_iconCarrier">
