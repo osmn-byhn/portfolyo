@@ -374,16 +374,6 @@ function App() {
             </p>
           </div>
         </div>
-        <img
-          src="https://github-readme-activity-graph.vercel.app/graph?username=osmn-byhn&bg_color=000000&color=9e4c98&line=9e4c98&point=ffffff&area=true&hide_border=true"
-          alt=""
-          className="w-full h-auto rounded-xl"
-        />
-        <img
-          src="https://myreadme.vercel.app/api/embed/osmn-byhn?panels=userstatistics,toprepositories,toplanguages,commitgraph"
-          alt="reimaginedreadme"
-          className="w-full h-auto rounded-xl mt-5"
-        />
       </div>
 
       <div id="projects" className=" my-[40vh] lg:max-w-[90%] lg:mx-auto px-4 ">
@@ -501,32 +491,6 @@ function App() {
           ))}
         </div>
       </div>
-      {/*<div id="history" className="my-[40vh] lg:max-w-[90%] lg:mx-auto px-4">
-        <h1 className="text-white text-2xl font-bold pb-3 border-b-2 mb-12">
-          <a href="#history"># History</a>
-        </h1>
-        
-        <ul role="list" className="m-8">
-          {history.map((event, index) => (
-            <li
-              key={index}
-              className="group relative flex flex-col pb-8 pl-7 last:pb-0"
-            >
-              <div className="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-white/10 group-first:top-3"></div>
-              <div className="absolute left-0 top-2 h-2 w-2 rounded-full border border-sky-300 bg-zinc-950"></div>
-              <h3 className="my-2 text-sm font-semibold text-white">
-                {event.title}
-              </h3>
-              <p className="font-display text-2xs order-first font-semibold tracking-[0.2em] text-sky-300">
-                <time>{event.date}</time>
-              </p>
-              <p className="mt-0.5 text-sm text-zinc-400">
-                {event.description}
-              </p>
-            </li>
-          ))}
-        </ul>
-      </div>*/}
       <section>
         <div id="history" className="bg-black text-white py-8">
           <h1 className="text-white text-2xl font-bold pb-3 border-b-2 mb-12  lg:max-w-[90%] lg:mx-auto px-4">
