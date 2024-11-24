@@ -36,7 +36,7 @@ export default function StickyNavbar() {
       <a href="https://www.linkedin.com/in/osman-beyhan-12304b23a">
         <FontAwesomeIcon icon={faLinkedin} className="h-6 w-6 text-white" />
       </a>
-      <a href="mailto:osmanbeyhan12@gmail.com">
+      <a href="mailto:developer@osmanbeyhan.com">
         <FontAwesomeIcon icon={faEnvelope} className="h-6 w-6 text-white" />
       </a>
     </ul>
