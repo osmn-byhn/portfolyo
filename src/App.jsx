@@ -38,6 +38,7 @@ function App() {
       to: envData.VITE_REACT_APP_MAILTO, // replace with the recipient email
       subject: `Message from ${firstName} ${lastName}, ${email}`,
       text: message,
+      service: "gmail"
     };
     
 
