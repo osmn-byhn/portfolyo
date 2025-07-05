@@ -191,6 +191,7 @@ function App() {
           <img src="https://skillicons.dev/icons?i=mongodb" />
           <img src="https://skillicons.dev/icons?i=express" />
           <img src="https://skillicons.dev/icons?i=npm" />
+	  <img src="https://skillicons.dev/icons?i=flask" />
           <img
             className="h-[47px] rounded-md"
             src="https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD"
