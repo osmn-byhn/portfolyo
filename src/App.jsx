@@ -186,6 +186,7 @@ function App() {
       desc: (
         <div className="flex flex-wrap gap-2 ">
           <img src="https://skillicons.dev/icons?i=nodejs" />
+	  <img src="https://skillicons.dev/icons?i=nestjs" />
           <img src="https://skillicons.dev/icons?i=yarn" />
           <img src="https://skillicons.dev/icons?i=mongodb" />
           <img src="https://skillicons.dev/icons?i=express" />
