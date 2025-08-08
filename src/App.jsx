@@ -368,7 +368,7 @@ function App() {
             <p id="description-1" className="text-lg py-2">
               My name is Osman. I am a web developer living in Turkey. Let me
               tell you about myself a little bit; I like to create things and I
-              learning programming and I've been coding for 4 years. Now I am{" "}
+              learning programming and I've been coding for {year - 2018} years. Now I am{" "}
               {year - 2004} years old and I think I'am a young programmer so I
               have a lot to learn.
             </p>
