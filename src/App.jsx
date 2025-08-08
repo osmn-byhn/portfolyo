@@ -294,6 +294,7 @@ function App() {
           </svg>
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Arch_Linux_%22Crystal%22_icon.svg/256px-Arch_Linux_%22Crystal%22_icon.svg.png" width="48px" height="48px" />
           <img src="https://seeklogo.com/images/T/tails-logo-9B5553F1D2-seeklogo.com.png" width="48px" height="48px" />
+		  <img src="https://avatars.githubusercontent.com/u/81515095?s=280&v=4" width="48px" height="48px" />
 		  <img src="https://forum.garudalinux.org/uploads/default/original/3X/f/c/fc55f8ef611294876ae9ce30dcf4cbcb4aece346.png" width="48px" height="48px" />
           <img src="https://skillicons.dev/icons?i=powershell" />
           <img src="https://skillicons.dev/icons?i=windows" />
