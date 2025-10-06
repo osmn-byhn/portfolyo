@@ -219,6 +219,7 @@ function App() {
           <img src="https://skillicons.dev/icons?i=netlify" />
           <img src="https://skillicons.dev/icons?i=aws" />
           <img src="https://skillicons.dev/icons?i=heroku" />
+		  <img src="https://www.vectorlogo.zone/logos/nginx/nginx-ar21.svg" />
           <img
             className="h-[47px] rounded-md"
             src="https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white"
@@ -229,6 +230,7 @@ function App() {
             src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white"
             alt="GitHub Pages"
           />
+			
         </div>
       ),
     },
