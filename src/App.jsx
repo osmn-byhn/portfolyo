@@ -319,6 +319,11 @@ function App() {
             src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE"
             alt="Insomnia"
           />
+			<img
+            className="h-[47px] rounded-md"
+            src="https://imagedelivery.net/-IT6z0z0Ec5yEiYj3DvVjg/c09279b0b46d619e11b0660251d0aa6cd7196fa0/public"
+            alt="HTTPie"
+          />
         </div>
       ),
     },
