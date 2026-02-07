@@ -9,7 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
   faGithub,
-  faLinkedin
+  faLinkedin,
+  faNpm
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -38,6 +39,9 @@ export default function StickyNavbar() {
       </a>
       <a href="mailto:developer@osmanbeyhan.com">
         <FontAwesomeIcon icon={faEnvelope} className="h-6 w-6 text-white" />
+      </a>
+      <a href="https://www.npmjs.com/~osmn-byhn">
+        <FontAwesomeIcon icon={faNpm} className="h-6 w-6 text-white" />
       </a>
     </ul>
   );
