@@ -31,7 +31,7 @@ export default function StickyNavbar() {
       <a href="https://github.com/osmn-byhn">
         <FontAwesomeIcon icon={faGithub} className="h-6 w-6 text-white" />
       </a>
-      <a href="https://www.instagram.com/osmn-byhn/">
+      <a href="https://www.instagram.com/osmn_byhn/">
         <FontAwesomeIcon icon={faInstagram} className="h-6 w-6 text-white" />
       </a>
       <a href="https://www.linkedin.com/in/osman-beyhan-12304b23a">
