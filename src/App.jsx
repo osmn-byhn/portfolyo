@@ -147,9 +147,9 @@ function App() {
     },
     {
       date: "September 2023",
-      title: "I was hired at 911CAD",
+      title: "I was hired at Dismass Studio",
       description:
-        "When I started working at 911CAD, I gained team spirit and thanks to my valuable colleagues in the team, my horizons expanded and I gained more knowledge in this sector. It was really a great experience for me.",
+        "When I started working at Dismass Studio, I gained team spirit and thanks to my valuable colleagues in the team, my horizons expanded and I gained more knowledge in this sector. It was really a great experience for me.",
     },
   ];
 
