@@ -2,82 +2,129 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Lexend+Deca:wght@400;600;700&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  color-scheme: light dark;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #0a0a0f;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #4338ca44;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6366f1aa;
+}
+
+/* ── HERO / SHORT ABOUT ── */
 .short-about {
-  margin-top: 150px;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  min-height: 80vh;
+  padding: 0 5%;
+  position: relative;
 }
 
 .short-about .welcome {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   width: 50%;
-  margin-left: 5%;
+  margin-left: 6%;
 }
 
 .short-about .welcome #hi {
-  color: #42b883;
-  font-size: 21px;
+  color: #6366f1;
+  font-size: 14px;
+  letter-spacing: 0.15em;
 }
 
 .short-about .welcome h1 {
-  font-size: 50px;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0.25em 0;
 }
+
 .short-about .welcome h2 {
-  font-size: 30px;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  color: #6b7280;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .short-about .welcome #name {
+  /* gradient applied via Tailwind in JSX */
   color: white;
 }
 
 .short-about .welcome #title {
-  color: #9b9b9b;
+  color: #6b7280;
 }
 
 .short-about .welcome #description {
-  color: white;
-  font-size: 19px;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .short-about .welcome #description .lang {
-  color: #42b883;
+  color: #818cf8;
+  font-weight: 600;
 }
 
 .short-about .image {
-  width: 20%;
+  width: 18%;
+  max-width: 200px;
+  min-width: 130px;
   height: auto;
-  border-radius: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
+/* ── RESPONSIVE ── */
 @media screen and (max-width: 1031px) {
   .short-about {
     flex-direction: column;
+    padding: 0 8%;
+    text-align: left;
+    gap: 2rem;
   }
 
   .short-about .welcome {
-    width: 90%;
+    width: 100%;
     margin-left: 0;
-    text-align: left;
   }
 
   .short-about .image {
-    width: 50%;
-    margin-bottom: 20px;
-  }
-  .short-about .welcome {
-    width: 70%;
+    width: 40%;
+    max-width: 160px;
+    margin-bottom: 0;
   }
 }
 
+/* ── NAVBAR ── */
 .sticky-navbar {
   position: fixed;
+}
+
+/* ── SELECTION ── */
+::selection {
+  background: #6366f155;
+  color: white;
 }

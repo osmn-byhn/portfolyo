@@ -49,22 +49,28 @@ export default function StickyNavbar() {
   const navList = (
     <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
-        <a href="#skills" className="flex items-center">Skills</a>
+        <a href="#skills" className="flex items-center text-white/70 hover:text-white transition-colors">Skills</a>
       </Typography>
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
-        <a href="#about" className="flex items-center">Who am I</a>
+        <a href="#about" className="flex items-center text-white/70 hover:text-white transition-colors">About</a>
       </Typography>
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
-        <a href="#projects" className="flex items-center">Projects</a>
+        <a href="#projects" className="flex items-center text-white/70 hover:text-white transition-colors">Projects</a>
       </Typography>
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
-        <a href="#docs" className="flex items-center">Docs</a>
+        <a href="#libraries" className="flex items-center text-white/70 hover:text-white transition-colors">Libraries</a>
       </Typography>
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
-        <a href="#history" className="flex items-center">History</a>
+        <a href="#apps" className="flex items-center text-white/70 hover:text-white transition-colors">Apps</a>
       </Typography>
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
-        <a href="#contact" className="flex items-center">Contact</a>
+        <a href="#tools" className="flex items-center text-white/70 hover:text-white transition-colors">Tools</a>
+      </Typography>
+      <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
+        <a href="#history" className="flex items-center text-white/70 hover:text-white transition-colors">History</a>
+      </Typography>
+      <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
+        <a href="#contact" className="flex items-center text-white/70 hover:text-white transition-colors">Contact</a>
       </Typography>
     </ul>
   );
@@ -119,7 +125,7 @@ export default function StickyNavbar() {
       </div>
       <MobileNav open={openNav} className="max-h-full">
         {navList}
-        <hr className="mb-5"/>
+        <hr className="mb-5" />
         {socialMedia}
       </MobileNav>
     </Navbar>
