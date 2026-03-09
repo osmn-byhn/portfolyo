@@ -377,6 +377,13 @@ function App() {
       description:
         "At Dismass Studio I gained team spirit and, thanks to my valued colleagues, my horizons expanded greatly. A truly great experience.",
     },
+    {
+      date: "January 2025",
+      title: "First Lİbrary",
+      description:
+        "I used to solve my problems locally within my projects and move on. But then I realized other developers might face the same issues. That’s when I discovered the open-source world—and I fell in love with it. Now I can’t stop building and sharing tools that might help others. 🚀
+",
+    },
   ];
 
   const skillsConfig = [
