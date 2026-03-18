@@ -432,11 +432,6 @@ function App() {
           badge: true,
           alt: "JWT",
         },
-        {
-          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkwpioZ0adCxoJkhcXVcNE7HOia3AvekIuPg&s",
-          badge: true,
-          alt: "Swagger",
-        },
         { src: "https://skillicons.dev/icons?i=redis" },
         { src: "https://skillicons.dev/icons?i=rabbitmq" },
 
@@ -572,6 +567,13 @@ function App() {
           badge: true,
           alt: "Insomnia",
         },
+        {
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkwpioZ0adCxoJkhcXVcNE7HOia3AvekIuPg&s",
+          badge: true,
+          alt: "Swagger",
+        },
+        { src: "https://skillicons.dev/icons?i=docker" },
+
       ],
     },
   ];
