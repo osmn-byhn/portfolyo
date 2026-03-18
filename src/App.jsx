@@ -443,6 +443,11 @@ function App() {
         { src: "https://skillicons.dev/icons?i=vercel" },
         { src: "https://skillicons.dev/icons?i=netlify" },
         { src: "https://skillicons.dev/icons?i=aws" },
+        {
+          src: "https://images.icon-icons.com/2407/PNG/512/digitalocean_icon_146196.png",
+          badge: true,
+          alt: "Digitail Ocean",
+        },
         { src: "https://skillicons.dev/icons?i=heroku" },
         {
           src: "https://www.vectorlogo.zone/logos/nginx/nginx-ar21.svg",
