@@ -547,7 +547,7 @@ function App() {
           alt: "Nobara",
         },
         {
-          src: "https://forum.garudalinux.org/uploads/default/original/3X/f/c/fc55f8ef611294876ae9ce30dcf4cbcb4aece346.png",
+          src: "https://garudalinux.org/assets/garuda-purple.svg",
           badge: true,
           alt: "Garuda Linux",
         },
