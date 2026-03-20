@@ -598,7 +598,7 @@ function App() {
         <img
           alt="osmanbeyhan"
           className="image ring-4 ring-indigo-500/30 shadow-2xl shadow-indigo-500/20"
-          src="https://avatars.githubusercontent.com/u/104824448?v=4
+          src="https://avatars.githubusercontent.com/u/104824448?v=4"
         />
         <div className="welcome">
           <p
