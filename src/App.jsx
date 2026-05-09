@@ -594,11 +594,26 @@ function App() {
       <div id="hero" className="short-about pt-[8vh] relative overflow-hidden">
         {/* background glow */}
         <div className="pointer-events-none absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[400px] rounded-full bg-indigo-600/20 blur-[120px]" />
-        <img
-          alt="osmanbeyhan"
-          className="image ring-4 ring-indigo-500/30 shadow-2xl shadow-indigo-500/20"
-          src="https://avatars.githubusercontent.com/u/104824448?v=4"
-        />
+        <div
+          className="relative flex items-center justify-center image aspect-square"
+          title="Turkey"
+        >
+          {/* Radial blur effect for the background to make edges disappear */}
+          <div className="absolute inset-0 z-0 bg-red-600/30 blur-2xl rounded-full"></div>
+
+          <span className="absolute inline-flex h-[70%] w-[70%] animate-ping rounded-full bg-red-500 opacity-30"></span>
+
+          <img
+            src="https://flagcdn.com/tr.svg"
+            alt="Turkish Flag"
+            className="relative z-10 w-full h-full object-cover hover:scale-105 transition-transform duration-500 p-"
+            style={{
+              objectPosition: "35% center",
+              maskImage: "radial-gradient(circle, black 40%, transparent 70%)",
+              WebkitMaskImage: "radial-gradient(circle, black 40%, transparent 70%)"
+            }}
+          />
+        </div>
         <div className="welcome">
           <p
             id="hi"
@@ -645,11 +660,10 @@ function App() {
             <button
               key={s.label}
               onClick={() => setActiveSkillTab(s.label)}
-              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 border ${
-                activeSkillTab === s.label
+              className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 border ${activeSkillTab === s.label
                   ? "bg-indigo-600 border-indigo-500 text-white shadow-lg shadow-indigo-600/30"
                   : "border-white/10 text-white/50 hover:border-indigo-400/50 hover:text-white/80"
-              }`}
+                }`}
             >
               {s.label}
             </button>
@@ -940,15 +954,14 @@ function App() {
               Send me your newsletter!
             </label>
             <button
-              className={`px-6 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 ${
-                formStatus === "sending"
+              className={`px-6 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 ${formStatus === "sending"
                   ? "bg-indigo-700 text-white/60 cursor-not-allowed"
                   : formStatus === "ok"
                     ? "bg-green-600 text-white shadow-lg shadow-green-600/30"
                     : formStatus === "error"
                       ? "bg-red-600 text-white"
                       : "bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/30"
-              }`}
+                }`}
               type="submit"
               disabled={formStatus === "sending"}
             >
