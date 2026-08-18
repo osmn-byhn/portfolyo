@@ -155,3 +155,18 @@ export const skillsConfig = [
   },
 ];
 
+/**
+ * Life clock — birth → now (or death).
+ *
+ * When you die, set `deathAt` to an ISO datetime string.
+ * The counter freezes at that moment and stops ticking.
+ * Leave `deathAt` as null while alive.
+ *
+ * Example:
+ *   deathAt: "2080-06-15T14:30:00"
+ */
+export const lifeClock = {
+  birthAt: "2004-02-23T00:00:00",
+  deathAt: null,
+};
+
