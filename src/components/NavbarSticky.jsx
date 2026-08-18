@@ -23,7 +23,6 @@ const NAV_ITEMS = [
 
 const SOCIAL = [
   { href: "https://github.com/osmn-byhn", icon: faGithub, label: "GitHub" },
-  { href: "https://www.instagram.com/osmn_byhn/", icon: faInstagram, label: "Instagram" },
   { href: "https://www.linkedin.com/in/osman-beyhan-12304b23a", icon: faLinkedin, label: "LinkedIn" },
   { href: "mailto:developer@osmanbeyhan.com", icon: faEnvelope, label: "Email" },
   { href: "https://www.npmjs.com/~osmn-byhn", icon: faNpm, label: "npm" },
